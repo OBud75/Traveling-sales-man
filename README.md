@@ -47,3 +47,12 @@ The 2-opt algorithm is a local search heuristic that improves existing solutions
    ```
 
 5. The program will read the city data from the input file input.txt, solve the TSP using different algorithms in parallel threads, and output the results to separate text files in the output folder.
+
+## Sources
+
+- <https://www.geeksforgeeks.org/traveling-salesman-problem-tsp-implementation/>
+- <https://en.wikipedia.org/wiki/Travelling_salesman_problem>
+- <https://www.routific.com/blog/travelling-salesman-problem#:~:text=The%20brute%2Dforce%20approach&text=To%20solve%20the%20TSP%20using,this%20is%20the%20optimal%20solution>.
+- <https://www.geeksforgeeks.org/travelling-salesman-problem-greedy-approach/>
+- <https://en.wikipedia.org/wiki/2-opt>
+- <https://slowandsteadybrain.medium.com/traveling-salesman-problem-ce78187cf1f3>
