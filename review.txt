@@ -1,0 +1,17 @@
+Evitez autant que possibles les commentaires redondants.
+Est il vraiment necessaire de préciser que vector<City> est un vecteur de villes? Que Route() est le contructeur par défaut ou que totalDistance calcule la distance totale?
+En plus de ne rien apporter au code vous prennez le risque d'oublier de les mettre à jour lorsque le code change.
+
+Soyez expicite jusqu'au bout dans vos choix de noms.
+Il est préférable d'indiquer explicitement longitude et latitude afin d'éviter toute confusion possible.
+
+Préférez utiliser les méthodes qui viennent avec les objets (cities.get(i) plutôt que cities[i]),
+cela vous garantiu que l'objet est sensé faire ce que vous demandez sans utiliser de logaique "bas niveau" qui permet de tout faire.
+
+Le projet est bien construit, le choix dans l'organisation avec un module "algorithms" apporte de l'organisation au projet.
+Les threads dans la fonction main sont clairs, attention à l'indentation.
+Continuez d'expérimenter en passant explicitement les pointeurs, lancez valgrind etc.
+
+On aurait pu immaginer un Solver général qui puisse résoudre n'importe quel algorythme avec jeu de polymorphisme par exemple.
+
+18/20
